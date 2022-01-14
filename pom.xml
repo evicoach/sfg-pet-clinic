@@ -27,7 +27,7 @@
 		<developerConnection>
 			scm:svn:https://github.com/EviCoach/sfg-pet-clinic.git
 		</developerConnection>
-	  <tag>sfg-pet-clinic-0.0.1</tag>
+		<url>https://github.com/EviCoach/sfg-pet-clinic.git</url>
   </scm>
 
 	<build>
