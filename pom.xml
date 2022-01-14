@@ -23,9 +23,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:svn:https://github.com/EviCoach/sfg-pet-clinic.git</connection>
+		<connection>scm:git:https://github.com/EviCoach/sfg-pet-clinic.git</connection>
 		<developerConnection>
-			scm:svn:https://github.com/EviCoach/sfg-pet-clinic.git
+			scm:git:https://github.com/EviCoach/sfg-pet-clinic.git
 		</developerConnection>
 		<url>https://github.com/EviCoach/sfg-pet-clinic.git</url>
   </scm>
