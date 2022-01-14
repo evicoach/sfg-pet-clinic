@@ -24,9 +24,11 @@
 	</properties>
 
 	<scm>
+		<connection>scm:git:git@github.com:EviCoach/sfg-pet-clinic.git</connection>
 		<developerConnection>
-			scm:git:git@github.com/EviCoach/sfg-pet-clinic.git
+			scm:git:git@github.com:EviCoach/sfg-pet-clinic.git
 		</developerConnection>
+		<url>https://github.com/EviCoach/sfg-pet-clinic.git</url>
 	</scm>
 
 	<build>
