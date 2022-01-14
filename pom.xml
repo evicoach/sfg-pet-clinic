@@ -25,7 +25,7 @@
 
 	<scm>
 		<developerConnection>
-			scm:git:git@github.com:tufac2/sfg-pet-clinic.git
+			scm:git:git@github.com/EviCoach/sfg-pet-clinic.git
 		</developerConnection>
 	</scm>
 
