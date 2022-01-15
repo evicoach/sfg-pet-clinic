@@ -9,7 +9,7 @@ package com.columnhack.sfgpetclinic.model;
  *
  * @author evi
  */
-class PetType {
+class PetType  extends BaseEntity{
     private String name;
 
     public String getName() {
