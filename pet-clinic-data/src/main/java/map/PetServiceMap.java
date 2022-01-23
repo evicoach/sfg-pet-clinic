@@ -2,10 +2,11 @@ package map;
 
 import com.columnhack.sfgpetclinic.model.Pet;
 import com.columnhack.sfgpetclinic.services.CrudService;
+import com.columnhack.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
