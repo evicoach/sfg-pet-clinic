@@ -1,11 +1,12 @@
-package map;
+package com.columnhack.sfgpetclinic.map;
 
 import com.columnhack.sfgpetclinic.model.Vet;
-import com.columnhack.sfgpetclinic.services.CrudService;
 import com.columnhack.sfgpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService{
     @Override
     public Set<Vet> findAll() {

@@ -1,4 +1,4 @@
-package map;
+package com.columnhack.sfgpetclinic.map;
 
 import java.util.HashMap;
 import java.util.HashSet;
