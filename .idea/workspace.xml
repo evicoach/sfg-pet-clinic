@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b64b3758-314c-42d0-b78c-aef011cf83df" name="Changes" comment="Refactoring to common crud interface. closes #12">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/inputField.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/selectField.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_115.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_ui_1_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/header.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/petclinic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/responsive.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/typography.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/wro/wro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/wro/wro.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pet-clinic-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pet-clinic-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +75,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.2646154" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -77,6 +87,7 @@
       <recent name="com.columnhack.sfgpetclinic.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pet-clinic-web/src/main" />
       <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/resources" />
     </key>
