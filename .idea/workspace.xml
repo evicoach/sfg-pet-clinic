@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b64b3758-314c-42d0-b78c-aef011cf83df" name="Changes" comment="Refactoring to common crud interface. closes #12">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/inputField.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/selectField.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.2646154" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -74,10 +77,14 @@
       <recent name="com.columnhack.sfgpetclinic.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
