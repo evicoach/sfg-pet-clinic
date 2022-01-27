@@ -1,4 +1,4 @@
-package com.columnhack.sfgpetclinic.map;
+package com.columnhack.sfgpetclinic.services.map;
 
 import com.columnhack.sfgpetclinic.model.Vet;
 import com.columnhack.sfgpetclinic.services.VetService;

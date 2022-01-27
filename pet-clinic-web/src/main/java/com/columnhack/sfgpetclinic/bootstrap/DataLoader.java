@@ -2,8 +2,6 @@ package com.columnhack.sfgpetclinic.bootstrap;
 
 import com.columnhack.sfgpetclinic.model.Owner;
 import com.columnhack.sfgpetclinic.model.Vet;
-import com.columnhack.sfgpetclinic.map.OwnerServiceMap;
-import com.columnhack.sfgpetclinic.map.VetServiceMap;
 import com.columnhack.sfgpetclinic.services.OwnerService;
 import com.columnhack.sfgpetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
