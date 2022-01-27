@@ -15,6 +15,7 @@ public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> 
         return map.get(id);
     }
 
+    /// Saving an object, automatically gives it an ID
     T save(T object) {
         if (object != null) {
             if (object.getId() == null) {
