@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b64b3758-314c-42d0-b78c-aef011cf83df" name="Changes" comment="Updated owner with JPA entity mappings. closes #38">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/columnhack/sfgpetclinic/services/springdatajpa/OwnerSDJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/columnhack/sfgpetclinic/services/springdatajpa/VetSDJpaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/columnhack/sfgpetclinic/repositories/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/columnhack/sfgpetclinic/repositories/OwnerRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
