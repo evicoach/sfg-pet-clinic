@@ -1,11 +1,7 @@
 package com.columnhack.sfgpetclinic.bootstrap;
 
 import com.columnhack.sfgpetclinic.model.*;
-import com.columnhack.sfgpetclinic.services.OwnerService;
-import com.columnhack.sfgpetclinic.services.PetTypeService;
-import com.columnhack.sfgpetclinic.services.VetService;
-import com.columnhack.sfgpetclinic.services.VisitService;
-import com.columnhack.sfgpetclinic.services.map.SpecialityServiceMap;
+import com.columnhack.sfgpetclinic.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -16,18 +12,18 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
     private final PetTypeService petTypeService;
-    private final SpecialityServiceMap specialityServiceMap;
+    private final SpecialtyService specialityServiceMap;
     private final VisitService visitService;
 
     public DataLoader(OwnerService ownerService,
                       VetService vetService,
                       PetTypeService petTypeService,
-                      SpecialityServiceMap specialityServiceMap,
+                      SpecialtyService specialtyService,
                       VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
-        this.specialityServiceMap = specialityServiceMap;
+        this.specialityServiceMap = specialtyService;
         this.visitService = visitService;
     }
 
