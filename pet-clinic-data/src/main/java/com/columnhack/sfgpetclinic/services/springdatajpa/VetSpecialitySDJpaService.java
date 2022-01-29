@@ -3,10 +3,13 @@ package com.columnhack.sfgpetclinic.services.springdatajpa;
 import com.columnhack.sfgpetclinic.model.Speciality;
 import com.columnhack.sfgpetclinic.repositories.SpecialtyRepository;
 import com.columnhack.sfgpetclinic.services.SpecialtyService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
-
+@Service
+@Profile("springdatajpa")
 public class VetSpecialitySDJpaService implements SpecialtyService {
     private final SpecialtyRepository specialtyRepository;
 

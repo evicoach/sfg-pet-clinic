@@ -4,6 +4,7 @@ import com.columnhack.sfgpetclinic.model.*;
 import com.columnhack.sfgpetclinic.services.OwnerService;
 import com.columnhack.sfgpetclinic.services.PetTypeService;
 import com.columnhack.sfgpetclinic.services.VetService;
+import com.columnhack.sfgpetclinic.services.VisitService;
 import com.columnhack.sfgpetclinic.services.map.SpecialityServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -16,13 +17,18 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialityServiceMap specialityServiceMap;
+    private final VisitService visitService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService,
-                      PetTypeService petTypeService, SpecialityServiceMap specialityServiceMap) {
+    public DataLoader(OwnerService ownerService,
+                      VetService vetService,
+                      PetTypeService petTypeService,
+                      SpecialityServiceMap specialityServiceMap,
+                      VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialityServiceMap = specialityServiceMap;
+        this.visitService = visitService;
     }
 
     @Override
@@ -85,6 +91,11 @@ public class DataLoader implements CommandLineRunner {
         owner2.getPets().add(fionasCat);
 
         ownerService.save(owner2);
+
+        Visit catVisit = new Visit();
+        catVisit.setPet(fionasCat);
+        catVisit.setDate(LocalDate.now());
+        catVisit.setDescription("Sneezy kitty");
 
         System.out.println("Loaded Owners....");
 
