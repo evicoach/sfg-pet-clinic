@@ -1,6 +1,6 @@
 package com.columnhack.sfgpetclinic.services.map;
 
-import com.columnhack.sfgpetclinic.model.Specialty;
+import com.columnhack.sfgpetclinic.model.Speciality;
 import com.columnhack.sfgpetclinic.model.Vet;
 import com.columnhack.sfgpetclinic.services.SpecialtyService;
 import com.columnhack.sfgpetclinic.services.VetService;
@@ -36,7 +36,7 @@ super.delete(object);
         if(object.getSpecialties().size() > 0){
             object.getSpecialties().forEach(specialty -> {
                 if(specialty.getId() == null){
-                    Specialty savedSpecialty = specialtyService.save(specialty);
+                    Speciality savedSpecialty = specialtyService.save(specialty);
                     specialty.setId(savedSpecialty.getId());
                 }
             });
