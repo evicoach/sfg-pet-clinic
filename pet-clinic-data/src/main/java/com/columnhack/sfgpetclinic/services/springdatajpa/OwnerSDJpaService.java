@@ -5,12 +5,16 @@ import com.columnhack.sfgpetclinic.repositories.OwnerRepository;
 import com.columnhack.sfgpetclinic.repositories.PetRepository;
 import com.columnhack.sfgpetclinic.repositories.PetTypeRepository;
 import com.columnhack.sfgpetclinic.services.OwnerService;
+import lombok.Builder;
+import lombok.Data;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Data
+@Builder
 @Service
 @Profile("springdatajpa")
 public class OwnerSDJpaService implements OwnerService {
