@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b64b3758-314c-42d0-b78c-aef011cf83df" name="Changes" comment="Updated owner with JPA entity mappings. closes #38">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pet-clinic-data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pet-clinic-data.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/columnhack/sfgpetclinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/columnhack/sfgpetclinic/model/PetType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/test/java/com/columnhack/sfgpetclinic/controllers/OwnerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/com/columnhack/sfgpetclinic/controllers/OwnerControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +82,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.circleci" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.2646154" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -98,6 +94,7 @@
       <recent name="com.columnhack.sfgpetclinic.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.circleci" />
       <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/pet-clinic-web/src/main" />
       <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates" />
