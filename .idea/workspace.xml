@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b64b3758-314c-42d0-b78c-aef011cf83df" name="Changes" comment="Updated owner with JPA entity mappings. closes #38">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/com/columnhack/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/com/columnhack/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/test/java/com/columnhack/sfgpetclinic/controllers/OwnerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/com/columnhack/sfgpetclinic/controllers/OwnerControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +21,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
         <option value="com.haulmont.jpb.JpaRepository" />
         <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -114,7 +117,20 @@
       <recent name="com.columnhack.sfgpetclinic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OwnerControllerTest">
+  <component name="RunManager" selected="Application.SfgPetClinicApplication">
+    <configuration name="SfgPetClinicApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.columnhack.sfgpetclinic.SfgPetClinicApplication" />
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.columnhack.sfgpetclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OwnerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <extension name="coverage">
@@ -126,6 +142,22 @@
       <option name="PACKAGE_NAME" value="com.columnhack.sfgpetclinic.controllers" />
       <option name="MAIN_CLASS_NAME" value="com.columnhack.sfgpetclinic.controllers.OwnerControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerControllerTest.displayOwner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.columnhack.sfgpetclinic.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.columnhack.sfgpetclinic.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.columnhack.sfgpetclinic.controllers.OwnerControllerTest" />
+      <option name="METHOD_NAME" value="displayOwner" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,45 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerSDJpaServiceTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pet-clinic-data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.columnhack.sfgpetclinic.services.springdatajpa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.columnhack.sfgpetclinic.services.springdatajpa" />
-      <option name="MAIN_CLASS_NAME" value="com.columnhack.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" />
-      <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OwnerSDJpaServiceTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pet-clinic-data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.columnhack.sfgpetclinic.services.springdatajpa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.columnhack.sfgpetclinic.services.springdatajpa" />
-      <option name="MAIN_CLASS_NAME" value="com.columnhack.sfgpetclinic.services.springdatajpa.OwnerSDJpaServiceTest" />
-      <option name="METHOD_NAME" value="findById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SfgPetClinicApplication" />
+        <item itemvalue="JUnit.OwnerControllerTest.displayOwner" />
         <item itemvalue="JUnit.OwnerControllerTest" />
         <item itemvalue="JUnit.OwnerControllerTest.listOwners" />
         <item itemvalue="JUnit.OwnerSDJpaServiceTest" />
-        <item itemvalue="JUnit.OwnerSDJpaServiceTest.findById" />
-        <item itemvalue="JUnit.OwnerSDJpaServiceTest.findAll" />
       </list>
     </recent_temporary>
   </component>
